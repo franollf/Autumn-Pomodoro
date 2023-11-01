@@ -1,6 +1,6 @@
-# Atutumn Pomodoro - A Seasoal Pomodoro Timer
+# Autumn Pomodoro - A Seasoal Pomodoro Timer
 
-Try it out here! https://franollf.github.io/Fall-Pomodoro/
+Try it out here!
 
 ## Overview
 
