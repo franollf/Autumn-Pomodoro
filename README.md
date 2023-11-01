@@ -1,4 +1,4 @@
-# Fall Pomodoro - A Pomodoro Timer
+# Atutumn Pomodoro - A Seasoal Pomodoro Timer
 
 Try it out here! https://franollf.github.io/Fall-Pomodoro/
 
