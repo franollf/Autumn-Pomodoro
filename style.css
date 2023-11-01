@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Tilt Neon";
+    box-sizing: border-box;
+    }
+    
+body{
+    background: #FF853F;
+    background-image: url("images/leavesfalling.gif");
+    background-size: cover;
+}
+
+.card{
+    width: 90%;
+    max-width: 650px;
+    height: 525px;
+    background-color: #222;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 70px;
+    font-family: "Tilt Neon";
+    font-weight: 500;
+    color:#222;
+
+}
+
+  .timer-container{
+    margin-top: 150px;
+    font-size: 100px;
+  }
+  
+ .button{
+background-color: transparent;
+border: none;
+cursor: pointer;
+
+
+ }
+
+.button-card{
+height: 40px;
+margin:0;
+background-color: grey;
+border-radius: 5px;
+border: 1px solid black;
+cursor: pointer;
+font-size: 20px;
+position: absolute;
+display: block;
+text-align: center;
+width: 175px;
+margin-left: 420px;
+margin-top: 22px;
+}
+
+.button-card:hover {
+  background-color: #e36414; 
+  color: white; 
+  background-image: urL(images/leafgif.gif);
+  background-size: 50%;
+
+}
+
+ .button:hover{
+    color: white;
+ }
+
+ .button-card-focus{
+    height: 40px;
+    margin-bottom: 10px;
+    background-color: grey;
+    border-radius: 5px;
+    width: 175px;
+    border:1px solid black;
+    cursor: pointer;
+    font-size: 20px;
+    position: absolute;
+   display: block;
+   margin-top: 22px;
+
+    }
+  
+    .button-card-focus:hover {
+      background-color: #e36414; 
+      color: white; 
+      background-image: urL(images/leafgif.gif);
+      background-size: 50%;
+
+    }
+    
+
+  .button-card-short-break{
+  margin-left: 10px;
+  height: 40px;
+  background-color: grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  display: block;
+  width: 175px;
+  border: 1px solid black;
+  margin-left: 215px;
+  margin-top: 22px;
+  }
+
+  .button-card-short-break:hover {
+    background-color: #e36414; 
+    color: white; 
+    background-image: urL(images/leafgif.gif);
+    background-size: 50%;
+
+  }
+  
+
+    .timer-container.playing {
+      background-image: url(images/transparent-gif.gif);
+      background-size: cover;
+    }
+
+.hidden {
+   display: none;
+}
+
+@media(max-width:480px){
+  .button-card-focus{
+    width: 90px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  .button-card-short-break
+  {
+    height: 70px;
+    width: 90px;
+    margin-left: 100px;
+  }
+  .button-card
+  {
+    height: 70px;
+    width: 90px;
+    margin-left: 200px;
+  }
+.card{
+  width: 360px;
+  margin-bottom: 30px;
+
+
+}
+}
+
+
+
+

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@800&family=Tilt+Neon&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <!-- Main -->
+    <audio id="timerSound" src="ring.mp3" preload="auto"></audio>
+    <title>Leaf Pomodoro</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <div class="card">
+      <button class="button-card-focus" onclick="changeTimer(25)">Focus</button>
+      <button class="button-card-short-break" onclick="changeTimer(5)">Short Break</button>
+      <button class="button-card" onclick="changeTimer(15)">Long Break</button>
+
+      <div class="study-interval-card">
+        <h3>
+          <button class="button-card-focus" onclick="changeTimer(25)">
+            Focus
+          </button>
+        </h3>
+      </div>
+      <div class="study-interval-card">
+        <h3>
+          
+        </h3>
+      </div>
+
+      <div class="study-interval-card">
+        <h3>
+        </h3>
+      </div>
+      
+        
+ 
+
+      <div class="timer-container">
+        <span id="minutes"></span>:<span id="seconds"></span>
+      </div>
+        <button class="button" id="startButton" onclick="startTimer()">
+          <img src="images/playimage.png" alt="Play-Button" width="40px" />
+        </button>
+        <button class="button" id="pauseButton" onclick="pauseTimer()">
+          <img src="images/stopbutton.png" alt="" width="40px" />
+        </button>
+        <button class="button" id="resetButton" onclick="resetTimer()">
+          <img src="images/reset.png" alt="Stop-Button" width="40px" />
+
+      
+        </button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!--HELLO-->
