@@ -1,4 +1,4 @@
-# Autumn Pomodoro - A Seasoal Pomodoro Timer
+# Autumn Pomodoro - A Seasonal Pomodoro Timer
 
 Try it out here!
 
