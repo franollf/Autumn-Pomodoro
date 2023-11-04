@@ -1,6 +1,6 @@
 # Autumn Pomodoro - A Seasonal Pomodoro Timer
 
-Try it out here!
+Try it out here! - https://franollf.github.io/Autumn-Pomodoro/
 
 ## Overview
 
